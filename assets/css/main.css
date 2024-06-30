@@ -321,7 +321,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 
@@ -1051,15 +1051,21 @@ ul.icons li a:active {
 }
 .connect-info {
 	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
 }
 .info-text {
 	margin-right: 1rem;
 	flex-shrink: 0;
 }
 .wx {
-	width: 20rem;
+	width: 60%;
 	height: auto;
 	border-radius: 1rem;
+}
+.mail-hub {
+	font-size: 1rem;
+	font-weight: 600;
 }
 /* Table */
 
